@@ -12,7 +12,7 @@ public class Solution {
         return count;
     }
 
-    private int dfs(TreeNode root, int currentMax){
+    private int dfs(TreeNode root, int currentMax) {
 
         int amount = 0;
         if (root == null) {
